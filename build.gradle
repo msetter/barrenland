@@ -1,0 +1,27 @@
+group 'com.farm'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.13'
+    compile 'org.apache.commons:commons-lang3:3.7'
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.spockframework:spock-core:1.1-groovy-2.4'
+}
+
+task uberjar(type: Jar) {
+    from files(sourceSets.main.output.classesDir)
+    from configurations.runtime.asFileTree.files.collect { zipTree(it) }
+
+    manifest {
+        attributes 'Main-Class': 'com.farm.barrenland.BarrenLandApplication'
+    }
+}
