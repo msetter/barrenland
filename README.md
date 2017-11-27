@@ -33,9 +33,9 @@ Required to build and run in IDE:
 Required to run from command line:    
 -- Java
 
-To build from command line:
--- switch to barrenland directory
--- Mac: <em>./gradlew clean build uberjar</em>
+To build from command line:  
+-- switch to barrenland directory<br/>
+-- Mac: <em>./gradlew clean build uberjar</em><br/>
 -- Windows: <em>gradlew.bat clean build uberjar</em>
 
 To run from command line:  
