@@ -38,8 +38,8 @@ To build from command line:
 -- Mac: <em>./gradlew clean build uberjar</em><br/>
 -- Windows: <em>gradlew.bat clean build uberjar</em>
 
-To run from command line:  
--- switch to barrenland directory
+To run from command line:<br/> 
+-- switch to barrenland directory<br/>
 -- <em>java -jar ./barrenland-1.0-SNAPSHOT.jar</em>
 
 To run the Jar in IntelliJ:   
@@ -49,8 +49,8 @@ To run the Jar in IntelliJ:
 To view test results in browser:  
 -- place the following link in a browser, replacing PATH_TO_BARRENLAND<br/>
    with the location of the barrenland directory on your system:<br/>
-       <em>file:///PATH_TO_BARRENLAND/build/reports/tests/test/packages/com.farm.barrenland.html</em>
-       or specifically:
+       <em>file:///PATH_TO_BARRENLAND/build/reports/tests/test/packages/com.farm.barrenland.html</em><br/>
+       or specifically:<br/>
        <em>file:///PATH_TO_BARRENLAND/build/reports/tests/test/classes/com.farm.barrenland.FertileLandCalculatorSpec.html</em>
 
 
