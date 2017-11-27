@@ -42,9 +42,15 @@ To run from command line:<br/>
 -- switch to barrenland directory<br/>
 -- <em>java -jar ./barrenland-1.0-SNAPSHOT.jar</em>
 
-To run the Jar in IntelliJ:   
+To run in IntelliJ:
+-- right click on BarrenLandApplication<br/>
+-- select: <em>Run 'BarrenLandAppl....main()'<br/>
+or:<br/>  
 -- right click on barrenland-1.0-SNAPSHOT.jar<br/>
--- select: <em>Run barrenland-1.0-SNAPSHOT.jar</em>
+-- select: <em>Run 'barrenland-1.0-SNAPS...'</em><br/>
+
+
+
 
 To view test results in browser:  
 -- place the following link in a browser, replacing PATH_TO_BARRENLAND<br/>
