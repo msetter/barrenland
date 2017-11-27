@@ -42,10 +42,10 @@ To run from command line:<br/>
 -- switch to barrenland directory<br/>
 -- <em>java -jar ./barrenland-1.0-SNAPSHOT.jar</em>
 
-To run in IntelliJ:
+To run in IntelliJ:<br/>
 -- right click on BarrenLandApplication<br/>
 -- select: <em>Run 'BarrenLandAppl....main()'<br/>
-or:<br/>  
+or:<br/> 
 -- right click on barrenland-1.0-SNAPSHOT.jar<br/>
 -- select: <em>Run 'barrenland-1.0-SNAPS...'</em><br/>
 
