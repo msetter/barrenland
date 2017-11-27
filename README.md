@@ -44,7 +44,7 @@ To run from command line:<br/>
 
 To run in IntelliJ:<br/>
 -- right click on BarrenLandApplication<br/>
--- select: <em>Run 'BarrenLandAppl....main()'<br/>
+-- select: <em>Run 'BarrenLandAppl....main()'</em><br/>
 or:<br/> 
 -- right click on barrenland-1.0-SNAPSHOT.jar<br/>
 -- select: <em>Run 'barrenland-1.0-SNAPS...'</em><br/>
